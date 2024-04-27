@@ -1,0 +1,6 @@
+## メモ
+
+BeanInfoFactoryとかいうのを作成すれば何とかなるかも
+PropertyDescriptorUtils.determineBasicPropertiesでsetter/getterから名前とgetter/setterのマップを作成している
+set>get>isの順で決定されるからsetIsBadメソッドがあればisBadに紐づいていると判断される
+isが適用されるのはbooleanだけ
